@@ -1,11 +1,11 @@
-public class Rook {
+public class Bishop{
     private int position;
     private int LifePoint;
-
-    public Rook() {
+    
+    public Bishop() {
         this.position = 0; // Default position
-        this.LifePoint = 1; // Rooks typically have 1 life point
-    }   
+        this.LifePoint = 1; // Bishops typically have 1 life point
+    }
 
     public int move(int x, int y) {
         // Implement the logic for moving the King piece

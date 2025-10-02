@@ -1,3 +1,4 @@
-public class AllPieces {
-    
+public interface AllPieces {
+   int move();
+
 }
