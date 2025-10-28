@@ -1,4 +1,4 @@
-public class Queens {
+public class Queens implements AllPieces{
     private int position;
     private int LifePoint;
 
@@ -21,5 +21,20 @@ public class Queens {
         }
 
     }
+    public int attack(int x, int y){
+
+    }
+   public int getPosition(){
+
+   }
+   public int getLifePoint(){
+    return LifePoint;
+   }
+   public void setPosition(int position){
+
+   }
+   public void setLifePoint(int lifePoint){
+
+   }
     
 }

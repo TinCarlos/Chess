@@ -1,4 +1,4 @@
-public class Bishop{
+public class Bishop implements AllPieces{
     private int position;
     private int LifePoint;
     

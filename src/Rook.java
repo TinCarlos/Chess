@@ -1,4 +1,4 @@
-public class Rook {
+public class Rook implements AllPieces{
     private int position;
     private int LifePoint;
 

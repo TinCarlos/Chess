@@ -1,4 +1,4 @@
-public class Pawns {
+public class Pawns implements AllPieces{
     private int position;
     private int LifePoint;
     public Pawns(){

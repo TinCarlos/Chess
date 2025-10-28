@@ -7,6 +7,7 @@ public class King implements AllPieces {
         this.LifePoint = 1; // Kings typically have 1 life point
     }
 
+    @Override
     public int move(int x, int y) {
         // Implement the logic for moving the King piece
         // For simplicity, let's assume the King can move one square in any direction
