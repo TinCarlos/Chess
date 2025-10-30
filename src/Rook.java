@@ -21,4 +21,21 @@ public class Rook implements AllPieces{
         }
 
     }
+
+    public int attack(int x, int y){
+        return 0;
+
+   }
+   public int getPosition(){
+    return 0;
+   }
+   public int getLifePoint(){
+    return LifePoint;
+   }
+   public void setPosition(int position){
+
+   }
+   public void setLifePoint(int lifePoint){
+
+   }
 }

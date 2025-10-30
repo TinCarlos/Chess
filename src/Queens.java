@@ -8,11 +8,9 @@ public class Queens implements AllPieces{
     }
 
     public int move(int x, int y) {
-        // Implement the logic for moving the King piece
-        // For simplicity, let's assume the King can move one square in any direction
-        if (Math.abs(x) <= 1 && Math.abs(y) <= 1) {
+        if(Math.abs(x) <= 8 && Math.abs(y) >= 0 || Math.abs(y) <= 8 && Math.abs(x) >= 0){
             // Valid move
-            this.position += x + y; // Update position (this is a simplification)
+            this.position += x + y;
             return this.position;
         } else {
             // Invalid move
@@ -22,10 +20,10 @@ public class Queens implements AllPieces{
 
     }
     public int attack(int x, int y){
-
-    }
+        return 0;
+   }
    public int getPosition(){
-
+    return 0;
    }
    public int getLifePoint(){
     return LifePoint;

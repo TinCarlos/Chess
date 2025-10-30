@@ -5,4 +5,6 @@ public interface AllPieces {
    int getLifePoint();
    void setPosition(int position);
    void setLifePoint(int lifePoint);
+
+   
 }

@@ -10,7 +10,7 @@ public class Knight implements AllPieces{
     @Override
     public int move(int x, int y) {
         // Implement the logic for moving the Knight piece
-        // For simplicity, let's assume the Knight moves in an "L" shape: two squares in one direction and one square perpendicular
+        //assume the Knight moves in an "L" shape: two squares in one direction and one square perpendicular
         if ((Math.abs(x) == 2 && Math.abs(y) == 1) || (Math.abs(x) == 1 && Math.abs(y) == 2)) {
             // Valid move
             this.position += x + y; // Update position (this is a simplification)
@@ -21,5 +21,20 @@ public class Knight implements AllPieces{
             return this.position;
         }
     }
+    public int attack(int x, int y){
+    return 0;
+   }
+   public int getPosition(){
+    return 0;
+   }
+   public int getLifePoint(){
+    return LifePoint;
+   }
+   public void setPosition(int position){
+
+   }
+   public void setLifePoint(int lifePoint){
+
+   }
     
 }
